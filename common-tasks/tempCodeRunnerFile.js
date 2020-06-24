@@ -1,1 +1,0 @@
-var link = path.substring(path.length - 4, path.length);
