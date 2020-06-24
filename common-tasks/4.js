@@ -7,9 +7,9 @@ const isEven = num => {
 function filterArray(mixedArray, isEven) {
   var evenNumbers = [];
   for (var i = 0; i < mixedArray.length; i++) {
-    var numbers = mixedArray[i]
-    if (isEven(mixedArray[i])) {
-      evenNumbers.push(numbers);
+    var number = mixedArray[i]
+    if (isEven(number)) {
+      evenNumbers.push(number);
     }
   }
   return evenNumbers;
